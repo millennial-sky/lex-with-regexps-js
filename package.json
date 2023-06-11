@@ -1,0 +1,20 @@
+{
+  "name": "@millennial-sky/regexp-lexer-gen",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "run": "literate run index.lit",
+    "build": "literate compile --md README.md index.lit",
+    "watch:run": "while inotifywait -o /dev/null -qe close_write index.lit; do echo -n '\\n\\n--------\\n\\n\\n'; literate run index.lit; done",
+    "watch:build": "while inotifywait -o /dev/null -qe close_write index.lit; do echo 'Compiling'; literate compile --md README.md index.lit; done",
+    "watch": "npm run watch:run & npm run watch:build"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "@millennial-sky/literate": "^0.4.3"
+  }
+}
