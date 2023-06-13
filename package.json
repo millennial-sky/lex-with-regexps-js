@@ -2,6 +2,7 @@
   "name": "@millennial-sky/regexp-lexer-gen",
   "version": "0.1.0",
   "license": "MIT",
+  "repository": "github:millennial-sky/regexp-lexer-gen-js",
   "scripts": {
     "prepare": "husky install",
     "run": "literate run index.lit",
