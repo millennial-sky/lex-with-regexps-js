@@ -1,8 +1,8 @@
 # Lexing with Regular Expressions
 
-## Overview
-
 This is a small (~50 lines of code) library the provides a simple API to tokenize strings using regular expressions.
+
+## Overview
 
 Here is an example that we will use throughout the documentation
 
