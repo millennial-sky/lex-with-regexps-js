@@ -1,6 +1,6 @@
 {
   "name": "@millennial-sky/regexp-lexer-gen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "repository": "github:millennial-sky/regexp-lexer-gen-js",
   "description": "A small library the provides a simple API to tokenize strings using regular expressions",
