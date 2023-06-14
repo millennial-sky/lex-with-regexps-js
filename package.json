@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "repository": "github:millennial-sky/regexp-lexer-gen-js",
+  "description": "A small library the provides a simple API to tokenize strings using regular expressions",
   "scripts": {
     "prepare": "husky install",
     "run": "literate run index.lit",
