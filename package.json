@@ -1,5 +1,5 @@
 {
-  "name": "@millennial-sky/regexp-lexer-gen",
+  "name": "@millennial-sky/lex-with-regexps",
   "version": "0.1.1",
   "license": "MIT",
   "repository": "github:millennial-sky/regexp-lexer-gen-js",
