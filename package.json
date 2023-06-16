@@ -5,6 +5,7 @@
   "repository": "github:millennial-sky/regexp-lexer-gen-js",
   "description": "A small library the provides a simple API to tokenize strings using regular expressions",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "prepare": "husky install",
     "run": "literate run index.lit",
